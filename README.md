@@ -62,9 +62,13 @@ This is the backend component of a blogging app developed using Java Spring Boot
 
 ### API Endpoints
 `POST /users` create new users
+
 `POST /users/login`
+
 `GET /profiles`
+
 `GET /profiles/{username}`
+
 `GET /articles` 
 - default page size is 10
 - available filters
@@ -74,10 +78,15 @@ This is the backend component of a blogging app developed using Java Spring Boot
 
 
 `GET /articles/{article-slug}`
+
 `POST /articles` create new articles
+
 `PATCH /articles/{article-slug}`
+
 `GET /article/{article-slug}/comments` get all comments of an article
+
 `POST /article/{article-slug}/comments` post a cooment
+
 `DELETE /article/{article-slug}/comments/{comment-id}` delete a specific comment
 
 ## Database Architecture
